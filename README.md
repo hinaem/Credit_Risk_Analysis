@@ -1,17 +1,24 @@
 # Credit_Risk_Analysis
 
 ## OVERVIEW
-At FAST LENDING SERVICES USE MACHINE LEARNING TO PREVENT CREDIT RISK. MANAGMENT BELIEVES THIS WILL PROVIDE A QUICKER AND MORE LIABLE EXPERIENCE. ALSO MORE ACCURATE RESULTS THAT WILL LOWER DEFAULT RATES. Today I am helping the Lead Data Scientist to implement the plan. 
+At LendingClub, the higher managemnet believes that we should use Machine Learning to help prevent credit risk. They believe it will provide a quicker and more liable experience and addidtionally it will be more accurate that will lower default rates. Today I am helping the Jill, Lead Data Scientist to implement the plan. Credit risk is an inherently unbalanced classification problem, as good loans easily outnumber risky loans. Therefore, we will need to employ different techniques to train and evaluate models with unbalanced classes. I have also used imbalanced-learn and scikit-learn libraries to build and evaluate models using resampling.
 
-In my analysis you will find below; I've built the six machine learning models and algorithems to predict credit risk. In my results I've added their balanced accurancy scores, the precision and recall scores.
+In my analysis you will find below; I've built the six machine learning models and algorithems to predict credit risk. In my results I've added their balanced accurancy scores, the precision and recall scores. Once the results are complete it will be more visual to evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
 
-Precision is the measure of how reliable a positive classification is. 
-Recall is the ability of the classifier to find all the positive samples.
 
 ## RESULT
 ### Deliverable 1: USED RANDOM OVER SAMPLER, SMOTE AND CLUSTER CENTROIDS 
 - RANDOM OVER SAMPLER
 
+Balanced Accurancy Score: 65.4%
+
+Precision: 99%
+
+Recall: 59%
+
+<img width="442" alt="Screenshot 2022-04-18 at 5 47 17 PM" src="https://user-images.githubusercontent.com/95388367/163883081-c6c9c96f-e22e-465f-8423-7b20a62bf848.png">
+
+<img width="685" alt="Screenshot 2022-04-18 at 5 47 22 PM" src="https://user-images.githubusercontent.com/95388367/163883110-503a82bf-d9ac-40c2-b1f0-dd3f8c92ed9d.png">
 
 
 - SMOTE 
@@ -87,7 +94,7 @@ Recall: 94%
 
 Let's go over the results in the classification report:
 
-
-In summary, this model may not be the best one for preventing fraudulent loan applications because the model's accuracy, 0.552, is low, and the precision and recall are not good enough to state that the model will be good at classifying fraudulent loan applications. Modeling is an iterative process: you may need more data, more cleaning, another model parameter, or a different model. It's also important to have a goal that's been agreed upon, so that you know when the model is good enough.
 ## SUMMARY 
+In summary, I would not recommend to use the SMOOTEEN method due to a Balanced accuracy score of 58.1%. Also from the six I would recommend to use the 
+Easy Ensemble Classifier due to the percentages being more high which will conclude accuracy.
 
